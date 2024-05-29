@@ -1,0 +1,32 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Code that related to our class",
+  "source":"index.html",
+  "scripts": {
+    "test": "npx jest --watchAll",
+    "start": "npx parcel --https",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mentor-Program/code.git"
+  },
+  "keywords": [
+    "jest",
+    "es6",
+    "export",
+    "import"
+  ],
+  "author": "Sefat Anam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mentor-Program/code/issues"
+  },
+  "homepage": "https://github.com/Mentor-Program/code#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
+    "jest": "^29.4.3",
+    "parcel": "^2.8.3"
+  }
+}
